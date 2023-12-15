@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>YouTube clone</title>
+    <link rel="stylesheet" href="./styles/youtube.css" />
     <link
       rel="preconnect"
       href="https://fonts.googleapis.com"
@@ -12,76 +13,262 @@
       crossorigin
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <style>
-      p {
-        font-family: roboto;
-        font-size: 14px;
-        vertical-align: middle;
-      }
-      .video-card {
-        box-sizing: border-box;
-        line-height: 16px;
-        display: block;
-      }
-      .thumbnail {
-        box-sizing: border-box;
-        width: 100%;
-      }
-
-      .img-channel {
-        width: 60px;
-        vertical-align: middle;
-      }
-      .image {
-        width: 300px;
-        display: block;
-      }
-      .search-bar {
-      }
-      .video-title {
-        width: 200px;
-      }
-    </style>
   </head>
   <body>
-    <div class="video-card">
-      <div class="thumbnail-container">
-        <a
-          href="https://www.youtube.com/watch?v=AnL-gsXlGNs"
-        >
-          <img
-            class="thumbnail"
-            src="./public/img/vid-xyz.webp"
-        /></a>
-        <div class="video-info-grid">
-          <div class="channel-profile-pic">
+    <main>
+      <section class="video-grid">
+        <div class="video-card">
+          <div class="thumbnail-container">
             <a
-              href="https://www.youtube.com/@XYZSchool"
-            ></a>
+              href="https://www.youtube.com/watch?v=3DstCVKAQh0"
+            >
+              <img
+                class="thumbnail"
+                src="./public/img/video-sheriff.webp"
+            /></a>
+            <div class="video-time">3:47</div>
           </div>
-          <div class="video-info"></div>
+          <div class="video-info-grid">
+            <div class="channel-profile-pic">
+              <a
+                href="https://www.youtube.com/@Clawles/videos"
+                ><img
+                  src="./public/img/channel-clawles.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=3DstCVKAQh0"
+                  >GTA 5 - Clawles: Sheriff Paleto Bay</a
+                >
+              </p>
+              <p class="channel-name">
+                <a
+                  class="channel-link"
+                  href="https://www.youtube.com/@Clawles/videos"
+                  >Clawles</a
+                >
+              </p>
+              <p class="video-stats">
+                78 тыс. просмотров &#183; 4 года назад
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-
-    <img
-      class="image"
-      src="./images/image_1.webp"
-      alt="img"
-    />
-    <p class="video-title">
-      <img
-        class="img-channel"
-        src="./images/channel-xyz.jpg"
-      />
-      Как левел дизайнеры создают уровни
-    </p>
-    <p class="video-author">XYZ</p>
-    <p class="video-stats">
-      653 тыс. просмотров &#183; 3 года назад
-    </p>
+        <div class="video-card">
+          <div class="thumbnail-container">
+            <a
+              href="https://www.youtube.com/watch?v=AnL-gsXlGNs"
+            >
+              <img
+                class="thumbnail"
+                src="./public/img/vid-xyz.webp"
+            /></a>
+            <div class="video-time">15:49</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile-pic">
+              <a href="https://www.youtube.com/@XYZSchool"
+                ><img src="./public/img/channel-xyz.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=AnL-gsXlGNs"
+                  >Как левел-дизайнеры создают уровни</a
+                >
+              </p>
+              <p class="channel-name">
+                <a
+                  class="channel-link"
+                  href="https://www.youtube.com/@XYZSchool"
+                  >XYZ</a
+                >
+              </p>
+              <p class="video-stats">
+                653 тыс. просмотров &#183; 3 года назад
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="thumbnail-container">
+            <a
+              href="https://www.youtube.com/watch?v=aBfKOO9bqV8&t=949s"
+            >
+              <img
+                class="thumbnail"
+                src="./public/img/image_2.webp"
+            /></a>
+            <div class="video-time">22:33</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile-pic">
+              <a
+                href="https://www.youtube.com/@sempiternal_raindev6711"
+                ><img
+                  src="./public/img/channel-simple-rain.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=aBfKOO9bqV8&t=949s"
+                  >Стрельба (TDS) [Game Maker Studio 2]</a
+                >
+              </p>
+              <p class="channel-name">
+                <a
+                  class="channel-link"
+                  href="https://www.youtube.com/@sempiternal_raindev6711"
+                >
+                  Sempiternal Rain</a
+                >
+              </p>
+              <p class="video-stats">
+                7,6 тыс. просмотров &#183; 2 года назад
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="thumbnail-container">
+            <a
+              href="https://www.youtube.com/watch?v=upoXH9hAKUg&list=PLPRT_JORnIuosvhfax2TQTEmN7OYTcSvK"
+            >
+              <img
+                class="thumbnail"
+                src="./public/img/image-3.jpg"
+            /></a>
+            <div class="video-time">32:02</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile-pic">
+              <a href="https://www.youtube.com/@ShaunJS"
+                ><img
+                  src="./public/img/channel-shaun-spalding.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=upoXH9hAKUg&list=PLPRT_JORnIuosvhfax2TQTEmN7OYTcSvK"
+                  >GameMaker: Action RPG Tutorial (Part 1:
+                  Moving & Resolution)</a
+                >
+              </p>
+              <p class="channel-name">
+                <a
+                  class="channel-link"
+                  href="https://www.youtube.com/@ShaunJS"
+                  >Shaun Spalding</a
+                >
+              </p>
+              <p class="video-stats">
+                479 тыс. просмотров &#183; 3 года назад
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="thumbnail-container">
+            <a
+              href="https://www.youtube.com/watch?v=8A8-7Ks26yY&list=PLWlFXymvoaJ_0ok740kLXTn5qn-i1UnYr"
+            >
+              <img
+                class="thumbnail"
+                src="./public/img/solidity-leasson.jpg"
+            /></a>
+            <div class="video-time">42:51</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile-pic">
+              <a
+                href="https://www.youtube.com/@IlyaBodrovKrukowski"
+                ><img
+                  src="./public/img/channel-solidity.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=8A8-7Ks26yY&list=PLWlFXymvoaJ_0ok740kLXTn5qn-i1UnYr"
+                  >Solidity и смарт-контракты Ethereum, урок
+                  #1 | Введение, Remix IDE, аккаунты, газ,
+                  первый контракт</a
+                >
+              </p>
+              <p class="channel-name">
+                <a
+                  class="channel-link"
+                  href="https://www.youtube.com/@IlyaBodrovKrukowski"
+                >
+                  Ilya Krukowski</a
+                >
+              </p>
+              <p class="video-stats">
+                128 тыс. просмотров &#183; 1 год назад
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="thumbnail-container">
+            <a
+              href="https://www.youtube.com/watch?v=CxgOKJh4zWE&t=35617s"
+            >
+              <img
+                class="thumbnail"
+                src="./public/img/image_4.webp"
+            /></a>
+            <div class="video-time">10:55:33</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile-pic">
+              <a
+                href="https://www.youtube.com/@Bogdan_Stashchuk"
+                ><img
+                  src="./public/img/channel-bogdan-stashchuck.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  class="video-link"
+                  href="https://www.youtube.com/watch?v=CxgOKJh4zWE&t=35617s"
+                  >JavaScript - Полный Курс JavaScript Для
+                  Начинающих [11 ЧАСОВ]</a
+                >
+              </p>
+              <p class="channel-name">
+                <a
+                  class="channel-link"
+                  href="https://www.youtube.com/@Bogdan_Stashchuk"
+                  >Bogdan Stashchuk</a
+                >
+              </p>
+              <p class="video-stats">
+                4 млн просмотров &#183; 1 год назад
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
