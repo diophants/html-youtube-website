@@ -16,72 +16,49 @@
       rel="stylesheet"
     />
     <style>
-      p {
-        font-family: roboto;
-        font-size: 14px;
-        vertical-align: middle;
-      }
-      .video-card {
-        box-sizing: border-box;
-        line-height: 16px;
+      .search-bar {
         display: block;
+      }
+      .video-preview {
+        display: inline-block;
       }
       .thumbnail {
-        box-sizing: border-box;
-        width: 100%;
-      }
-
-      .img-channel {
-        width: 60px;
-        vertical-align: middle;
-      }
-      .image {
-        width: 300px;
-        display: block;
-      }
-      .search-bar {
-      }
-      .video-title {
         width: 200px;
       }
     </style>
   </head>
   <body>
-    <div class="video-card">
-      <div class="thumbnail-container">
-        <a
-          href="https://www.youtube.com/watch?v=AnL-gsXlGNs"
-        >
-          <img
-            class="thumbnail"
-            src="./public/img/vid-xyz.webp"
-        /></a>
-        <div class="video-info-grid">
-          <div class="channel-profile-pic">
-            <a
-              href="https://www.youtube.com/@XYZSchool"
-            ></a>
-          </div>
-          <div class="video-info"></div>
-        </div>
-      </div>
+    <input
+      class="search-bar"
+      type="text"
+      placeholder="Search"
+    />
+    <div class="video-preview">
+      <img
+        class="thumbnail"
+        src="./public/img/vid-xyz.webp"
+      />
+      <p class="video-title">
+        Как левел дизайнеры создают уровни
+      </p>
+      <p class="video-author">XYZ</p>
+      <p class="video-stats">
+        653 тыс. просмотров &#183; 3 года назад
+      </p>
     </div>
 
-    <img
-      class="image"
-      src="./images/image_1.webp"
-      alt="img"
-    />
-    <p class="video-title">
+    <div class="video-preview">
       <img
-        class="img-channel"
-        src="./images/channel-xyz.jpg"
+        class="thumbnail"
+        src="./public/img/vid-xyz.webp"
       />
-      Как левел дизайнеры создают уровни
-    </p>
-    <p class="video-author">XYZ</p>
-    <p class="video-stats">
-      653 тыс. просмотров &#183; 3 года назад
-    </p>
+      <p class="video-title">
+        Как левел дизайнеры создают уровни
+      </p>
+      <p class="video-author">XYZ</p>
+      <p class="video-stats">
+        653 тыс. просмотров &#183; 3 года назад
+      </p>
+    </div>
   </body>
 </html>
