@@ -1,0 +1,54 @@
+p {
+  font-family: arial;
+  color: gray;
+  margin: 0;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+.div-card {
+  display: inline-block;
+  margin: 12px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.15s;
+}
+.div-card:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+}
+.div-img {
+  /* or width 100% */
+  display: block;
+}
+.img-friend {
+  width: 160px;
+}
+.div-info {
+  /* or width 100% */
+  display: block;
+  padding: 8px;
+}
+.friend-name {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+.button-add-friend {
+  background-color: rgb(14, 108, 186);
+  color: white;
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  border-radius: 2px;
+  font-family: arial;
+  font-size: 12px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.15s, opacity 0.15s;
+}
+.button-add-friend:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+.button-add-friend:active {
+  opacity: 0.8;
+}

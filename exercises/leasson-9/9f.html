@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tweeter</title>
+    <style>
+      div {
+        display: inline-block;
+        padding: 12px;
+        border-radius: 4px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+      }
+
+      .img-account {
+        width: 36px;
+        border-radius: 36px;
+        vertical-align: middle;
+      }
+      .input-msg {
+        width: 220px;
+        margin-left: 8px;
+        border: none;
+        font-family: arial;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .input-msg:focus {
+        outline: none;
+      }
+      .button-tweet {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        padding: 6px;
+        padding-right: 12px;
+        padding-left: 12px;
+        border: none;
+        border-radius: 40px;
+        font-weight: bold;
+        cursor: pointer;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img
+        class="img-account"
+        src="./img/channel-clawles.jpg"
+      />
+      <input
+        class="input-msg"
+        type="text"
+        placeholder="What's happening?"
+      />
+      <button class="button-tweet">Tweet</button>
+    </div>
+  </body>
+</html>
